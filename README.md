@@ -33,7 +33,7 @@
 To install the UCG API, follow these steps:
 - Clone the repository to your local machine using the following command:
 ```bash
-git clone https://github.com/OrtalNaaman/Stor
+git clone https://github.com/OrtalNaaman/StoreApp.API
 ```
 - Create a new Microsoft SQL Server database to store the application data.
 - Open the file appsettings.json located in the UCG project folder and modify the following connection string with your own Microsoft SQL Server database connection string:
