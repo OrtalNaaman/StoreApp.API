@@ -16,13 +16,14 @@
 - LINQ Queries.
 - Usage of AutoMapper & DTO's.
 - JWT Authentication & Identity Core.
-- Authorization: 3 user roles - ["Visitor", "User", "Admin"].
+- Authorization: 3 user roles - ["Guest", "User", "Admin"].
 
 
 
 ## API Access
 | User              | Password                   | Access       |  Access & Abilities           |        
 | :---------------  | :------------------------- | :----------- | :-----------
+| admin@email.com   | Aa@1234                    | Administrator|  Full access to any page in the app |
 | admin@email.com   | Aa@1234                    | Administrator|  Full access to any page in the app |
 | admin@email.com   | Aa@1234                    | Administrator|  Full access to any page in the app |
 
