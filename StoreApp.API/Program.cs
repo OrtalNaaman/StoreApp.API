@@ -18,6 +18,7 @@ builder.Services.AddDbContextFactory<StoreDbContext>(options =>
 });
 
 // Identity Core
+
 builder.Services.AddIdentityCore<User>()
     .AddRoles<IdentityRole>()
     .AddTokenProvider<DataProtectorTokenProvider<User>>("StoreAPI")
@@ -25,9 +26,11 @@ builder.Services.AddIdentityCore<User>()
     .AddDefaultTokenProviders();
 
 // AutoMapper
+
 builder.Services.AddAutoMapper(typeof(AutoMapperConfig));
 
 // Jwt Authentication
+
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme; // "Bearer"
