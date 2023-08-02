@@ -23,10 +23,9 @@
 ## API Access
 | User              | Password                   | Access       |  Access & Abilities           |        
 | :---------------  | :------------------------- | :----------- | :-----------
-| admin@email.com   | Aa@1234                    | Administrator|  Full access to any page in the app |
-| admin@email.com   | Aa@1234                    | Administrator|  Full access to any page in the app |
-| admin@email.com   | Aa@1234                    | Administrator|  Full access to any page in the app |
-
+| admin@email.com   | 123!Qaz123                 | Administrator|  The only role that have permission to watch all users orders and update their delivery status. Admin can also purchase products.|
+| netush@gmail.com  | Neta@123                   | User         |  Only connected user can purchase products. |
+| Not registered user | -                  | Guest        |  Limited access. Guest can't purchase products. |
 
 ## Installation
 
