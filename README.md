@@ -1,5 +1,5 @@
 ## UCG- Unique Clothes for Girls - Web API 
-- RESTful API for user & products management.
+- REST API for user & products management.
 - CRUD oprations.
 
 ## Table of Contents
