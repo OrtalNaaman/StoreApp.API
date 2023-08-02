@@ -32,7 +32,7 @@
 To install the UCG API, follow these steps:
 - Clone the repository to your local machine using the following command:
 bash
-git clone _________________________________
+git clone https://github.com/OrtalNaaman/StoreApp.API
 
 - Open the solution file StoreApp.API.sln in Visual Studio.
 - Build the solution to restore NuGet packages and compile the project.
